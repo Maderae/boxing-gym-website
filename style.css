@@ -202,13 +202,13 @@ ul {
 .training-section .container {
   display: flex;
   width: 100%;
-  gap: 12rem;
+  gap: 10rem;
   margin-top: 6rem;
 }
 
 .training-section img {
-  width: 520px;
-  height: 400px;
+  width: 580px;
+  height: 440px;
   object-fit: cover;
   border-radius: 8px;
 }
@@ -243,6 +243,6 @@ ul {
   display: flex;
   align-items: center;
   padding-left: 25px;
-  border-left: 7px solid var(--primary-blue);
+  border-left: 6px solid var(--primary-blue);
   height: 90px;
 }
