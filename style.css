@@ -77,18 +77,18 @@ ul {
     /* color: var(--primary-blue); */
 }
 
-section .container {
+.hero .container {
   width: 100%;
   display: flex;
   
 }
 
-section {
+.hero {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url("assets/boxing-hero.webp");
+    background-image: url("assets/images/boxing-hero-image.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
