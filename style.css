@@ -12,7 +12,8 @@
 :root {
   --primary-blue:#545AEA;
   --secondary-blue: #4147E8;
-  --font-text :'Saira Condensed', sans-serif;
+  --font-primary :'Saira Condensed', sans-serif;
+  --font-secondary : 'Poppins', sans-serif;
 }
 
 body {
@@ -45,7 +46,7 @@ ul {
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
-  font-family: var(--font-text);
+  font-family: var(--font-primary);
   text-transform: uppercase;
 }
 
@@ -97,7 +98,7 @@ ul {
 
 
 .hero-text {
-  font-family: var(--font-text);
+  font-family: var(--font-primary);
   font-size: 6em;
   font-weight: bold;
   color: white;
@@ -108,7 +109,7 @@ ul {
 
 
 .hero-button {
-  font-family: var(--font-text);
+  font-family: var(--font-primary);
   background-color: var(--primary-blue);
   border: none;
   padding: 8px 24px;
@@ -140,7 +141,7 @@ ul {
 .offer-text {
   color: black;
   text-align: center;
-  font-family: var(--font-text);
+  font-family: var(--font-primary);
   font-weight: bold;
   text-transform: uppercase;
   font-size: 50px;
@@ -181,7 +182,7 @@ ul {
 
 .offer-box p {
   text-align: center;
-  font-family: var(--font-text);
+  font-family: var(--font-primary);
   color: var(--primary-blue);
   font-size: 28px;
   padding-top: 8px;
@@ -195,4 +196,51 @@ ul {
   width: max-content;
   padding: 20px 40px; /* top and bottom | left and right */
 
+}
+
+
+.training-section .container {
+  display: flex;
+  width: 100%;
+  gap: 13rem;
+  margin-top: 6rem;
+}
+
+.training-section img {
+  width: 520px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+.training-programs {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+
+.training-title {
+  color: black;
+  text-align: center;
+  font-family: var(--font-primary);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.training-text {
+  color: black;
+  font-family: var(--font-secondary);
+  font-size: 18px;
+  line-height: 165%;
+}
+
+
+.thin-line {
+  display: flex;
+  padding-left: 25px;
+  border-left: 8px solid var(--primary-blue); 
 }
