@@ -202,7 +202,7 @@ ul {
 .training-section .container {
   display: flex;
   width: 100%;
-  gap: 13rem;
+  gap: 12rem;
   margin-top: 6rem;
 }
 
@@ -235,12 +235,14 @@ ul {
   color: black;
   font-family: var(--font-secondary);
   font-size: 18px;
-  line-height: 165%;
+  line-height: 170%;
 }
 
 
 .thin-line {
   display: flex;
+  align-items: center;
   padding-left: 25px;
-  border-left: 8px solid var(--primary-blue); 
+  border-left: 7px solid var(--primary-blue);
+  height: 90px;
 }
