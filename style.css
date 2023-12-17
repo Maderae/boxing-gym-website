@@ -117,7 +117,7 @@ ul {
   text-transform: uppercase;
   font-weight: bold;
   border-radius: 3px;
-  font-size: 18px;
+  font-size: 16px;
   transition-duration: 0.4s;
   cursor: pointer;
   margin-top: 8px;
@@ -234,7 +234,7 @@ ul {
 .training-text {
   color: black;
   font-family: var(--font-secondary);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 170%;
 }
 
@@ -245,4 +245,48 @@ ul {
   padding-left: 25px;
   border-left: 6px solid var(--primary-blue);
   height: 90px;
+}
+
+
+.tournaments-section .container {
+  display: flex;
+  width: 100%;
+  gap: 10rem;
+  margin-top: 6rem;
+}
+
+.tournaments-section img {
+  width: 680px;
+  height: 520px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+.tournaments-programs {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+
+.tournaments-title {
+  color: black;
+  text-align: center;
+  font-family: var(--font-primary);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.tournaments-text {
+  color: black;
+  font-family: var(--font-secondary);
+  font-size: 16px;
+  line-height: 170%;
+}
+
+span {
+  font-weight: bold;
 }
