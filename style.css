@@ -14,6 +14,9 @@
   --secondary-blue: #4147E8;
   --font-primary :'Saira Condensed', sans-serif;
   --font-secondary : 'Poppins', sans-serif;
+  --font-size-body: 18px;
+  --font-size-plans : 24px;
+  --font-size-price : 50px;
 }
 
 body {
@@ -117,7 +120,7 @@ ul {
   text-transform: uppercase;
   font-weight: bold;
   border-radius: 3px;
-  font-size: 18px;
+  font-size: var(--font-size-body);
   transition-duration: 0.4s;
   cursor: pointer;
   margin-top: 8px;
@@ -234,7 +237,7 @@ ul {
 .training-text {
   color: black;
   font-family: var(--font-secondary);
-  font-size: 18px;
+  font-size: var(--font-size-body);
   line-height: 170%;
 }
 
@@ -283,10 +286,105 @@ ul {
 .tournaments-text {
   color: black;
   font-family: var(--font-secondary);
-  font-size: 18px;
+  font-size: var(--font-size-body);
   line-height: 170%;
 }
 
 span {
   font-weight: bold;
+}
+
+
+.membership-section {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+
+}
+
+.membership-title {
+  color: black;
+  text-align: center;
+  font-family: var(--font-primary);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.membership-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  margin-top: 12px;
+  padding-top: 1rem;
+}
+
+.card {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  width: 400px;
+  height: 540px;
+  background-color: white;
+  color: #000;
+  margin-top: 2rem;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.membership-plans {
+  text-align: center;
+  font-family: var(--font-primary);
+  color: black;
+  margin-top: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: var(--font-size-plans);
+}
+
+.membership-price {
+  text-align: center;
+  font-family: var(--font-primary);
+  color: black;
+  margin-top: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: var(--font-size-price);
+}
+
+
+.card ul li {
+  gap: 1rem;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  align-content: stretch;
+  font-size: var(--font-size-body);
+  font-family: var(--font-secondary);
+  color: black;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+.membership-cards img {
+  width: 30px;
+  height: 30px;
+}
+
+
+.card:nth-child(2) {
+  width: 420px;
+  margin-top: 0;
+  height: 600px;
+  font-size: 22px;
 }
