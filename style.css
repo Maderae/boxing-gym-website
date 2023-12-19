@@ -29,7 +29,7 @@ ul {
 .container {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 10px;
 }
 
 .navbar {
@@ -69,6 +69,7 @@ ul {
 
 .navbar ul li {
   margin-left: 20px;
+  list-style-type: none;
 }
 
 
@@ -131,11 +132,11 @@ ul {
 
 
 
-.offer-section {
+.offer-section .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 
@@ -146,6 +147,7 @@ ul {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 50px;
+  margin-top: 2rem;
 }
 
 
@@ -202,7 +204,9 @@ ul {
 
 .training-section .container {
   display: flex;
-  width: 80%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0px;
   gap: 11rem;
   margin-top: 6rem;
 }
@@ -219,7 +223,6 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 30px;
-
 }
 
 
@@ -268,7 +271,6 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 30px;
-
 }
 
 
@@ -293,12 +295,12 @@ span {
 }
 
 
-.membership-section {
+.membership-section .container {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 21px;
   margin-top: 2rem;
-
 }
 
 .membership-title {
@@ -393,6 +395,7 @@ ul {
 footer {
   background-color: black;
   margin-top: 3rem;
+  width: 100%;
 }
 
 footer .container {
@@ -424,6 +427,7 @@ footer .container {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  max-width: 100%;
 }
 
 
@@ -433,6 +437,7 @@ footer .container {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  max-width: 100%;
   
 }
 
@@ -463,4 +468,110 @@ footer .container {
   display: flex;
   color: white;
   gap: 35px;
+}
+
+
+
+/* Mobile responsive */
+
+/* Navigation Bar  */
+.hamburger {
+  display: none;
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+}
+
+
+
+/* xl */
+@media (max-width: 1200px) {
+  .training-section .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .training-programs {
+    height: 90%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .training-title {
+    line-height: 50px;
+  }
+
+  .offer-section .container .offer-box {
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+
+  .tournaments-section .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+
+  .tournaments {
+    height: 90%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    order: 2
+  }
+
+  .tournaments img {
+    order: 1; 
+  }
+
+  .membership-cards {
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  
+  
+}
+
+
+
+@media screen and (max-width:768px) {
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+  }
+  .hamburger #closeHam {
+    display: none;
+  }
+
+   header nav .container .nav {
+    display: none;
+  }
+
+  .hero-text {
+   font-size: 4em
+  }
+  
+  
+  .hero-button {
+    font-size: 24px
+  }
+}
+
+
+
+/* sm */
+@media (max-width: 640px) {
+  
+}
+
+/* xs */
+@media (max-width: 475px) {
+  
 }
