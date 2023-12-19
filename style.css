@@ -450,7 +450,7 @@ footer .container {
   border-top: 1px solid white;
 }
 
-.bottom-footer-text {
+.bottom-left-footer{
   font-family: var(--font-secondary);
   font-size: var(--font-size-body);
   color: white;
