@@ -10,6 +10,6 @@
 
 
 ## Figma Design
- <img loading="lazy" width="400px" height="auto" src="/assets/images/Boxing Gym design.png" alt="boxing gym figma design" />
+ <img loading="lazy" style="text-align: center;" width="400px" height="auto" src="/assets/images/Boxing Gym design.png" alt="boxing gym figma design" />
 
 
