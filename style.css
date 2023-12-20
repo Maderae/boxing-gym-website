@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap");
 
 * {
   box-sizing: border-box;
@@ -10,16 +10,14 @@
 }
 
 :root {
-  --primary-blue:#545AEA;
-  --secondary-blue: #4147E8;
-  --font-primary :'Saira Condensed', sans-serif;
-  --font-secondary : 'Poppins', sans-serif;
+  --primary-blue: #545aea;
+  --secondary-blue: #4147e8;
+  --font-primary: "Saira Condensed", sans-serif;
+  --font-secondary: "Poppins", sans-serif;
   --font-size-body: 18px;
-  --font-size-plans : 24px;
-  --font-size-price : 50px;
+  --font-size-plans: 24px;
+  --font-size-price: 50px;
 }
-
-
 
 /* Nav Bar */
 ul {
@@ -40,7 +38,6 @@ ul {
   z-index: 1;
   background: rgba(27, 26, 26, 0.795);
 }
-
 
 .navbar a {
   color: #fff;
@@ -72,32 +69,29 @@ ul {
   list-style-type: none;
 }
 
-
-.logo img{
-    max-width: 100%;
-    height: 60px;
-    rotate: -25deg;
-    /* color: var(--primary-blue); */
+.logo img {
+  max-width: 100%;
+  height: 60px;
+  rotate: -25deg;
+  /* color: var(--primary-blue); */
 }
 
 .hero .container {
   width: 100%;
   display: flex;
-  
 }
 
 .hero {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-image: url("assets/images/boxing-hero-image.webp");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("assets/images/boxing-hero-image.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
 .hero-text {
   font-family: var(--font-primary);
@@ -108,7 +102,6 @@ ul {
   text-transform: uppercase;
   text-align: left;
 }
-
 
 .hero-button {
   font-family: var(--font-primary);
@@ -126,11 +119,9 @@ ul {
 }
 
 .hero-button:hover {
-  background-color: #4147E8;
+  background-color: #4147e8;
   color: white;
 }
-
-
 
 .offer-section .container {
   display: flex;
@@ -138,7 +129,6 @@ ul {
   align-items: center;
   padding-top: 1rem;
 }
-
 
 .offer-text {
   color: black;
@@ -150,7 +140,6 @@ ul {
   margin-top: 2rem;
 }
 
-
 .offer-box {
   display: flex;
   justify-content: center;
@@ -158,8 +147,6 @@ ul {
   gap: 25px;
   margin-top: 8px;
 }
-
-
 
 .box {
   display: flex;
@@ -173,7 +160,6 @@ ul {
   border-radius: 10px;
   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 }
-
 
 .icons {
   height: 100px;
@@ -193,14 +179,10 @@ ul {
   text-transform: uppercase;
 }
 
-
-
- .box:nth-child(2) {
+.box:nth-child(2) {
   width: max-content;
   padding: 20px 40px; /* top and bottom | left and right */
-
 }
-
 
 .training-section .container {
   display: flex;
@@ -213,18 +195,17 @@ ul {
 
 .training-section img {
   width: 580px;
+  max-width: 100%;
   height: 440px;
   object-fit: cover;
   border-radius: 8px;
 }
-
 
 .training-programs {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-
 
 .training-title {
   color: black;
@@ -242,7 +223,6 @@ ul {
   line-height: 170%;
 }
 
-
 .thin-line {
   display: flex;
   align-items: center;
@@ -250,7 +230,6 @@ ul {
   border-left: 6px solid var(--primary-blue);
   height: 90px;
 }
-
 
 .tournaments-section .container {
   display: flex;
@@ -261,18 +240,17 @@ ul {
 
 .tournaments-section img {
   width: 580px;
+  max-width: 100%;
   height: 440px;
   object-fit: cover;
   border-radius: 8px;
 }
-
 
 .tournaments {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-
 
 .tournaments-title {
   color: black;
@@ -293,7 +271,6 @@ ul {
 span {
   font-weight: bold;
 }
-
 
 .membership-section .container {
   display: flex;
@@ -353,7 +330,6 @@ span {
   font-size: var(--font-size-price);
 }
 
-
 .card ul li {
   gap: 1rem;
   padding: 5px;
@@ -367,21 +343,19 @@ span {
 }
 
 ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
-
 
 .membership-cards img {
   width: 30px;
   height: 30px;
 }
-
 
 .card:nth-child(2) {
   width: 420px;
@@ -390,7 +364,6 @@ ul {
   font-size: 22px;
   padding: 10px;
 }
-
 
 footer {
   background-color: black;
@@ -407,7 +380,6 @@ footer .container {
   padding-top: 2rem;
 }
 
-
 .footer-text {
   font-family: var(--font-primary);
   font-size: 50px;
@@ -421,7 +393,6 @@ footer .container {
   color: var(--primary-blue);
 }
 
-
 .footer-icon-text {
   display: flex;
   align-items: center;
@@ -430,18 +401,13 @@ footer .container {
   max-width: 100%;
 }
 
-
-
 .footer-icons {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   max-width: 100%;
-  
 }
-
-
 
 .bottom-footer {
   display: flex;
@@ -455,12 +421,11 @@ footer .container {
   border-top: 1px solid white;
 }
 
-.bottom-left-footer{
+.bottom-left-footer {
   font-family: var(--font-secondary);
   font-size: var(--font-size-body);
   color: white;
 }
-
 
 .bottom-right-footer {
   font-family: var(--font-secondary);
@@ -492,7 +457,7 @@ footer .container {
     align-items: center;
     gap: 2rem;
   }
-  
+
   .training-programs {
     height: 90%;
     width: 50%;
@@ -515,33 +480,30 @@ footer .container {
     align-items: center;
     gap: 2rem;
   }
-  
 
   .tournaments {
     height: 90%;
     width: 50%;
     justify-content: center;
     align-items: center;
-    order: 2
+    order: 2;
   }
 
   .tournaments img {
-    order: 1; 
+    order: 1;
   }
 
   .membership-cards {
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  
-  
-  
+  .membership-section {
+    margin-top: 2rem;
+  }
 }
 
-
-
-@media screen and (max-width:768px) {
+@media (max-width: 768px) {
   .hamburger {
     display: flex;
     cursor: pointer;
@@ -550,28 +512,115 @@ footer .container {
     display: none;
   }
 
-   header nav .container .nav {
+  header nav .container .nav {
     display: none;
   }
 
   .hero-text {
-   font-size: 4em
+    font-size: 3.5em;
   }
-  
-  
+
   .hero-button {
-    font-size: 24px
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .training-section img ,
+  .tournaments-section img {
+   padding: 0 12px
   }
 }
 
+@media (max-width: 475px) {
+  .footer-text {
+    font-size: 35px;
+    text-align: center;
+  }
+  .footer-icon-text {
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .bottom-footer {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+  }
+
+  .bottom-right-footer {
+    gap: 4px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .membership-cards {
+    gap: 21px;
+    margin-top: 12px;
+    padding-top: 1rem;
+  }
+
+  .card {
+    width: 320px;
+    height: 540px;
+    
+  }
+
+  .card:nth-child(2) {
+    width: 350px;
+  }
+
+  .card ul li {
+    font-size: 16px;
+    
+  }
+
+  .training-text,
+  .tournaments-text {
+    width: 100%;
+    font-size: 16px;
+  }
 
 
-/* sm */
-@media (max-width: 640px) {
-  
+
+  .box p {
+    font-size: 24px;
+  }
+
+  ul {
+    padding-inline-start: 10px; 
+  }
+
 }
 
-/* xs */
-@media (max-width: 475px) {
+@media (max-width: 368px) {
+  .training-section img ,
+  .tournaments-section img {
+   padding: 0 10px
+  }
+
+  .card {
+    width: 300px;
+  }
+
+  .card:nth-child(2) {
+    width: 300px;
+  }
+
+  .membership-title {
+    font-size: 45px;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+
+  .footer-icons{
+    width: 100%;
+    flex-direction: column;
+  }
+  
+
   
 }
